@@ -1,6 +1,30 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+table {
+	text-align: center;
+	margin: 1em auto;
+	border-collapse: collapse;
+}
+
+td {
+	padding: .2em;
+}
+
+tr:nth-of-type(2) td {
+	font-variant: small-caps;
+}
+
+tr:nth-of-type(3) td {
+	font-style: italic;
+}
+
+tr:nth-of-type(4) td {
+	border: 1px solid;
+	font-variant: small-caps;
+	padding: .5em 2em;
+}
+
 [epub|type~="z3998:verse"] p{
 	text-align: initial;
 	text-indent: 0;
